@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-LO34TQ6</Machine>
+    <WindowsUser>Mugdhapati</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>f46b14b8-dad7-4205-903f-104f943e17d4</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Mugdhapati</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\GitHub\SWC7\MusicLibrary\MusicLibrary\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F2B9720B1933FF4B0251F43ED249B49141DF9A39F34674B32FE9F8C5157FBE77</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f46b14b8-dad7-4205-903f-104f943e17d4_1.0.0.0_x86__w2587eva9ts0m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f46b14b8-dad7-4205-903f-104f943e17d4_w2587eva9ts0m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f46b14b8-dad7-4205-903f-104f943e17d4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mugdhapati</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-17T16:42:35.532</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MusicLibrary.exe">
+      <PackagePath>entrypoint\MusicLibrary.exe</PackagePath>
+      <Modified>2020-05-17T16:42:34.610</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mugdhapati\.nuget\packages\id3\0.6.0\lib\netstandard2.0\Id3.Net.dll">
+      <PackagePath>Id3.Net.dll</PackagePath>
+      <Modified>2019-01-28T21:11:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mugdhapati\.nuget\packages\jetbrains.annotations\2018.3.0\lib\netstandard2.0\JetBrains.Annotations.dll">
+      <PackagePath>JetBrains.Annotations.dll</PackagePath>
+      <Modified>2019-01-14T19:14:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T21:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mugdhapati\.nuget\packages\taglib\2.1.0\lib\policy.2.0.taglib-sharp.dll">
+      <PackagePath>policy.2.0.taglib-sharp.dll</PackagePath>
+      <Modified>2012-07-05T20:32:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mugdhapati\.nuget\packages\taglib\2.1.0\lib\taglib-sharp.dll">
+      <PackagePath>taglib-sharp.dll</PackagePath>
+      <Modified>2012-07-05T20:32:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-19T01:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Brunos\Magic.mp3">
+      <PackagePath>Assets\Audio\Brunos\Magic.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Brunos\Uptown.mp3">
+      <PackagePath>Assets\Audio\Brunos\Uptown.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Demis\Confident.mp3">
+      <PackagePath>Assets\Audio\Demis\Confident.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Demis\Sorry.mp3">
+      <PackagePath>Assets\Audio\Demis\Sorry.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Drakes\Hotline.mp3">
+      <PackagePath>Assets\Audio\Drakes\Hotline.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Drakes\Scorpion.mp3">
+      <PackagePath>Assets\Audio\Drakes\Scorpion.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Selenas\LoseU.mp3">
+      <PackagePath>Assets\Audio\Selenas\LoseU.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Selenas\StarsDance.mp3">
+      <PackagePath>Assets\Audio\Selenas\StarsDance.mp3</PackagePath>
+      <Modified>2020-05-15T03:34:42.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\bruno.png">
+      <PackagePath>Assets\Icons\bruno.png</PackagePath>
+      <Modified>2020-05-13T18:18:49.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\demi.png">
+      <PackagePath>Assets\Icons\demi.png</PackagePath>
+      <Modified>2020-05-13T18:18:49.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\drake.png">
+      <PackagePath>Assets\Icons\drake.png</PackagePath>
+      <Modified>2020-05-13T18:18:49.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\selena.png">
+      <PackagePath>Assets\Icons\selena.png</PackagePath>
+      <Modified>2020-05-13T18:18:49.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Magic.png">
+      <PackagePath>Assets\Images\Brunos\Magic.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.003</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Uptown.png">
+      <PackagePath>Assets\Images\Brunos\Uptown.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Demis\Confident.png">
+      <PackagePath>Assets\Images\Demis\Confident.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Demis\Sorry.png">
+      <PackagePath>Assets\Images\Demis\Sorry.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Drakes\Hotline.png">
+      <PackagePath>Assets\Images\Drakes\Hotline.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Drakes\Scorpion.png">
+      <PackagePath>Assets\Images\Drakes\Scorpion.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Selenas\LoseU.png">
+      <PackagePath>Assets\Images\Selenas\LoseU.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Selenas\StarsDance.png">
+      <PackagePath>Assets\Images\Selenas\StarsDance.png</PackagePath>
+      <Modified>2020-05-13T18:18:54.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-03T00:09:40.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-05-12T14:54:19.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MusicLibrary.xr.xml">
+      <PackagePath>MusicLibrary.xr.xml</PackagePath>
+      <Modified>2020-05-17T14:36:05.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-17T16:42:34.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-17T16:42:34.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-19T00:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-17T16:37:13.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\Core\MusicLibrary.exe">
+      <PackagePath>MusicLibrary.exe</PackagePath>
+      <Modified>2020-05-17T16:42:35.520</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

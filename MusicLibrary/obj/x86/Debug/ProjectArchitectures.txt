@@ -1,0 +1,1 @@
+C:\GitHub\SWC7\MusicLibrary\MusicLibrary\GEMM Music.csproj;x86
