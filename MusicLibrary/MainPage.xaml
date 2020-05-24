@@ -8,8 +8,11 @@
     xmlns:model="using:MusicLibrary.Model"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid >
+        <Grid.Background>
+           <ImageBrush x:Name="SelectedImage" Stretch="Uniform" Opacity="20"  />
+        </Grid.Background>
 
-    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -32,7 +35,8 @@
                        DisplayMode="CompactOverlay"
                        CompactPaneLength="45"
                        OpenPaneLength="200" 
-                       Margin="0,28,0,0">
+                       Margin="-1,2,1,0" >
+            
             <SplitView.Pane>
                 <ListView Name="MenuItemsListView" IsItemClickEnabled="True" 
                               ItemsSource="{x:Bind MenuItems}" ItemClick="MenuItemsListView_ItemClick" >
@@ -48,28 +52,68 @@
                 </ListView>
             </SplitView.Pane>
             <SplitView.Content>
+                
                 <Grid Margin="20,20,0,0">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <MediaElement Name="MyMediaElement" AutoPlay="True" />
-                    <TextBlock Name="CategoryTextBlock" Text="All Musics" FontSize="24"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
 
-                    <GridView Grid.Row="1" 
+                        <!--Search starts here-->
+
+                            <SearchBox  Grid.Row="0" x:Name="mySearchBox" 
+                                        FocusOnKeyboardInput="True"
+                                        QuerySubmitted="mySearchBox_QuerySubmitted"  Width="400" Height="35" Margin="0,0,0,0" Canvas.ZIndex="100"/>
+
+                        <!--search ends here-->
+
+                        <TextBlock Grid.Row="1" Name="CategoryTextBlock" Text="ALL SONGS"   
+                               FontSize="24" HorizontalAlignment="Left"  FontWeight="Bold"/>
+
+                        <StackPanel Name="MusicDetails" Grid.Row="3" HorizontalAlignment="Center" Visibility="Collapsed">
+
+                            <Grid>
+                                <Border Opacity="0.5" Background="#FF140D0D" ></Border>
+                                <TextBlock  Name="MusicTitle" Text=" " Foreground="White" FontWeight="Bold" FontSize="24"  HorizontalAlignment="Center"  />
+                            </Grid>
+                        
+                            
+                        </StackPanel>
+
+                        <MediaPlayerElement Name="MyMediaElement"  Visibility="Collapsed" VerticalAlignment="Center"
+                                       Grid.Row="4" AreTransportControlsEnabled="True" AutoPlay="True"/>
+
+                        <StackPanel >
+                            <TextBox x:Name="ArtistTextBlock"
+                                     Header="Artist Name:" PlaceholderText="Artist Name"
+                                     Width="300" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                            <TextBox x:Name="AlbumTextBlock"
+                                        Header="Album name:" PlaceholderText="Album Name"
+                                        Width="300" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                        </StackPanel>
+
+                    <GridView Grid.Row="2" 
                                   Name ="SoundGridView" 
                                   IsItemClickEnabled="True" 
                                   ItemsSource="{x:Bind Musics}"
-                                  ItemClick="SoundGridView_ItemClick">
+                                  ItemClick="SoundGridView_ItemClick" Margin="0,0,0,0">
+                        
                         <GridView.ItemTemplate>
                             <DataTemplate x:DataType="model:Music">
-                                <Image Name="MyImage" Height="112" Width="101" Source="{x:Bind ImageFile}" />
+                                    <StackPanel Padding="50,0,0,0">
+                                        <Image Name="MyImage" Height="112" Width="101" Source="{x:Bind ImageFile}"/>
+                                        <TextBlock Name="MusicName" Text="{x:Bind Name}" FontSize="15" FontWeight="Bold" />
 
-                            </DataTemplate>
+                                    </StackPanel>
+                                </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>
                 </Grid>
             </SplitView.Content>
         </SplitView>
+        
     </Grid>
 </Page>
