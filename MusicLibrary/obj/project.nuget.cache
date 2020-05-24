@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjEVE8UtlkQhzG88AgTZ6/3m+R5GTT+7iMhJ/kzO7XyRfyjCfByFJneUfBNWLpf1/dv+8aLlW6fJi7L2c//fYg==",
+  "dgSpecHash": "Vg/1G2Aqi0qxaCJaX1vT1FOC0A34GA8Mq9LH7MZcNdjr7DnTKBfPRuYKvO8t4Xf2vVRTJUgRui3Mx1Jr/58fVg==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\GEMM Music.csproj",
+  "projectFilePath": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\MusicLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mugdhapati\\.nuget\\packages\\id3\\0.6.0\\id3.0.6.0.nupkg.sha512",
     "C:\\Users\\Mugdhapati\\.nuget\\packages\\jetbrains.annotations\\2018.3.0\\jetbrains.annotations.2018.3.0.nupkg.sha512",

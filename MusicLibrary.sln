@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEMM Music", "MusicLibrary\GEMM Music.csproj", "{5795728C-4AA7-4F9A-B74D-9D1A2B61F1E2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicLibrary", "MusicLibrary\MusicLibrary.csproj", "{5795728C-4AA7-4F9A-B74D-9D1A2B61F1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

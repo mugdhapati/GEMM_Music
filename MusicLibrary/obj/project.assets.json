@@ -8466,9 +8466,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\GEMM Music.csproj",
-      "projectName": "GEMM Music",
-      "projectPath": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\GEMM Music.csproj",
+      "projectUniqueName": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\MusicLibrary.csproj",
+      "projectName": "MusicLibrary",
+      "projectPath": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\MusicLibrary.csproj",
       "packagesPath": "C:\\Users\\Mugdhapati\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\SWC7\\MusicLibrary\\MusicLibrary\\obj\\",
       "projectStyle": "PackageReference",
