@@ -64,6 +64,30 @@
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Drakes\Scorpion.mp3">
       <PackagePath>Assets\Audio\Drakes\Scorpion.mp3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Confident.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Confident.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Hotline.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Hotline.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\LoseU.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\LoseU.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Magic.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Magic.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Scorpion.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Scorpion.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Sorry.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Sorry.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\StarsDance.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\StarsDance.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Uptown.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Uptown.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Selenas\LoseU.mp3">
       <PackagePath>Assets\Audio\Selenas\LoseU.mp3</PackagePath>
     </AppxPackagedFile>
@@ -78,6 +102,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\drake.png">
       <PackagePath>Assets\Icons\drake.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\myPlaylist.png">
+      <PackagePath>Assets\Icons\myPlaylist.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\selena.png">
       <PackagePath>Assets\Icons\selena.png</PackagePath>
@@ -99,6 +126,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Drakes\Scorpion.png">
       <PackagePath>Assets\Images\Drakes\Scorpion.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\MyPlaylist\MyPlaylist.png">
+      <PackagePath>Assets\Images\MyPlaylist\MyPlaylist.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Selenas\LoseU.png">
       <PackagePath>Assets\Images\Selenas\LoseU.png</PackagePath>
@@ -132,6 +162,12 @@
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Magic.jpg">
+      <PackagePath>Assets\Images\Brunos\Magic.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Uptown.jpg">
+      <PackagePath>Assets\Images\Brunos\Uptown.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>

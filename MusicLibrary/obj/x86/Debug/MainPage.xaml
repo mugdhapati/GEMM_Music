@@ -8,39 +8,43 @@
     xmlns:model="using:MusicLibrary.Model"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid >
+        <Grid.Background>
+           <ImageBrush x:ConnectionId='2' x:Name="SelectedImage" Stretch="Uniform" Opacity="20"  />
+        </Grid.Background>
 
-    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
         <RelativePanel>
-            <Button x:ConnectionId='13' Name ="HamburgerButton"
+            <Button x:ConnectionId='21' Name ="HamburgerButton"
                     RelativePanel.AlignLeftWithPanel="True"
                     FontFamily= "Segoe MDL2 Assets"
                     Content= "&#xE700;"                              />
 
-            <Button x:ConnectionId='14' Name ="BackButton"
+            <Button x:ConnectionId='22' Name ="BackButton"
                     RelativePanel.RightOf="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE0A6;"                          />
 
         </RelativePanel>
         
-        <SplitView x:ConnectionId='2' Grid.Row="1" Name ="MySplitView"
+        <SplitView x:ConnectionId='3' Grid.Row="1" Name ="MySplitView"
                        DisplayMode="CompactOverlay"
                        CompactPaneLength="45"
                        OpenPaneLength="200" 
-                       Margin="0,28,0,0">
+                       Margin="-1,2,1,0" >
+            
             <SplitView.Pane>
-                <ListView x:ConnectionId='3' Name="MenuItemsListView" IsItemClickEnabled="True" 
+                <ListView x:ConnectionId='4' Name="MenuItemsListView" IsItemClickEnabled="True" 
                                                                                                        >
                     <ListView.ItemTemplate>
                         <DataTemplate                            >
-                            <StackPanel x:ConnectionId='5' Orientation="Horizontal">
-                                <Image x:ConnectionId='6'                            Height="45" Width="45" Margin="-8,10,0,10"/>
-                                <TextBlock x:ConnectionId='7'                          FontSize="18" Margin="10,0,0,0" VerticalAlignment="Center" />
+                            <StackPanel x:ConnectionId='6' Orientation="Horizontal">
+                                <Image x:ConnectionId='7'                            Height="45" Width="45" Margin="-8,10,0,10"/>
+                                <TextBlock x:ConnectionId='8'                          FontSize="18" Margin="10,0,0,0" VerticalAlignment="Center" />
                             </StackPanel>
 
                         </DataTemplate>
@@ -48,29 +52,69 @@
                 </ListView>
             </SplitView.Pane>
             <SplitView.Content>
+                
                 <Grid Margin="20,20,0,0">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto" />
-                        <RowDefinition Height="*" />
-                    </Grid.RowDefinitions>
-                    <MediaElement x:ConnectionId='8' Name="MyMediaElement" AutoPlay="True" />
-                    <TextBlock x:ConnectionId='9' Name="CategoryTextBlock" Text="All Musics" FontSize="24"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
 
-                    <GridView x:ConnectionId='10' Grid.Row="1" 
+                        <!--Search starts here-->
+
+                            <SearchBox x:ConnectionId='9'  Grid.Row="0" x:Name="mySearchBox" 
+                                        FocusOnKeyboardInput="True"
+                                                                                     Width="400" Height="35" Margin="0,0,0,0" Canvas.ZIndex="100"/>
+
+                        <!--search ends here-->
+
+                        <TextBlock x:ConnectionId='10' Grid.Row="1" Name="CategoryTextBlock" Text="ALL SONGS"   
+                               FontSize="24" HorizontalAlignment="Left"  FontWeight="Bold"/>
+
+                        <StackPanel x:ConnectionId='11' Name="MusicDetails" Grid.Row="3" HorizontalAlignment="Center" Visibility="Collapsed">
+
+                            <Grid>
+                                <Border Opacity="0.5" Background="#FF140D0D" ></Border>
+                                <TextBlock x:ConnectionId='20'  Name="MusicTitle" Text=" " Foreground="White" FontWeight="Bold" FontSize="24"  HorizontalAlignment="Center"  />
+                            </Grid>
+                        
+                            
+                        </StackPanel>
+
+                        <MediaPlayerElement x:ConnectionId='12' Name="MyMediaElement"  Visibility="Collapsed" VerticalAlignment="Center"
+                                       Grid.Row="4" AreTransportControlsEnabled="True" AutoPlay="True"/>
+
+                        <StackPanel >
+                            <TextBox x:ConnectionId='18' x:Name="ArtistTextBlock"
+                                     Header="Artist Name:" PlaceholderText="Artist Name"
+                                     Width="300" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                            <TextBox x:ConnectionId='19' x:Name="AlbumTextBlock"
+                                        Header="Album name:" PlaceholderText="Album Name"
+                                        Width="300" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                        </StackPanel>
+
+                    <GridView x:ConnectionId='13' Grid.Row="2" 
                                   Name ="SoundGridView" 
                                   IsItemClickEnabled="True" 
                                                                
-                                                                     >
+                                                                      Margin="0,0,0,0">
+                        
                         <GridView.ItemTemplate>
                             <DataTemplate                         >
-                                <Image x:ConnectionId='12' Name="MyImage" Height="112" Width="101"                             />
+                                    <StackPanel x:ConnectionId='15' Padding="50,0,0,0">
+                                        <Image x:ConnectionId='16' Name="MyImage" Height="112" Width="101"                            />
+                                        <TextBlock x:ConnectionId='17' Name="MusicName"                      FontSize="15" FontWeight="Bold" />
 
-                            </DataTemplate>
+                                    </StackPanel>
+                                </DataTemplate>
                         </GridView.ItemTemplate>
                     </GridView>
                 </Grid>
             </SplitView.Content>
         </SplitView>
+        
     </Grid>
 </Page>
 

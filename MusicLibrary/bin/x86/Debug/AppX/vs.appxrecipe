@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-17T16:42:35.532</Modified>
+      <Modified>2020-05-24T22:15:55.745</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MusicLibrary.exe">
       <PackagePath>entrypoint\MusicLibrary.exe</PackagePath>
-      <Modified>2020-05-17T16:42:34.610</Modified>
+      <Modified>2020-05-24T22:15:54.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mugdhapati\.nuget\packages\id3\0.6.0\lib\netstandard2.0\Id3.Net.dll">
       <PackagePath>Id3.Net.dll</PackagePath>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Brunos\Magic.mp3">
       <PackagePath>Assets\Audio\Brunos\Magic.mp3</PackagePath>
-      <Modified>2020-05-15T03:34:42.890</Modified>
+      <Modified>2020-05-22T02:29:15.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Brunos\Uptown.mp3">
       <PackagePath>Assets\Audio\Brunos\Uptown.mp3</PackagePath>
@@ -86,6 +86,38 @@
       <PackagePath>Assets\Audio\Drakes\Scorpion.mp3</PackagePath>
       <Modified>2020-05-15T03:34:42.928</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Confident.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Confident.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:35.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Hotline.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Hotline.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:42.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\LoseU.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\LoseU.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:49.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Magic.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Magic.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:10.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Scorpion.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Scorpion.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:42.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Sorry.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Sorry.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:35.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\StarsDance.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\StarsDance.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:49.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\MyPlaylist\Uptown.mp3">
+      <PackagePath>Assets\Audio\MyPlaylist\Uptown.mp3</PackagePath>
+      <Modified>2020-05-23T00:29:10.902</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Audio\Selenas\LoseU.mp3">
       <PackagePath>Assets\Audio\Selenas\LoseU.mp3</PackagePath>
       <Modified>2020-05-15T03:34:42.931</Modified>
@@ -106,17 +138,21 @@
       <PackagePath>Assets\Icons\drake.png</PackagePath>
       <Modified>2020-05-13T18:18:49.937</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\myPlaylist.png">
+      <PackagePath>Assets\Icons\myPlaylist.png</PackagePath>
+      <Modified>2020-05-24T13:19:37.051</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Icons\selena.png">
       <PackagePath>Assets\Icons\selena.png</PackagePath>
       <Modified>2020-05-13T18:18:49.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Magic.png">
       <PackagePath>Assets\Images\Brunos\Magic.png</PackagePath>
-      <Modified>2020-05-13T18:18:54.003</Modified>
+      <Modified>2020-05-22T02:33:28.412</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Uptown.png">
       <PackagePath>Assets\Images\Brunos\Uptown.png</PackagePath>
-      <Modified>2020-05-13T18:18:54.005</Modified>
+      <Modified>2020-05-22T02:32:55.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Demis\Confident.png">
       <PackagePath>Assets\Images\Demis\Confident.png</PackagePath>
@@ -134,13 +170,17 @@
       <PackagePath>Assets\Images\Drakes\Scorpion.png</PackagePath>
       <Modified>2020-05-13T18:18:54.017</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\MyPlaylist\MyPlaylist.png">
+      <PackagePath>Assets\Images\MyPlaylist\MyPlaylist.png</PackagePath>
+      <Modified>2020-05-24T13:40:48.757</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Selenas\LoseU.png">
       <PackagePath>Assets\Images\Selenas\LoseU.png</PackagePath>
-      <Modified>2020-05-13T18:18:54.019</Modified>
+      <Modified>2020-05-22T02:40:40.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Selenas\StarsDance.png">
       <PackagePath>Assets\Images\Selenas\StarsDance.png</PackagePath>
-      <Modified>2020-05-13T18:18:54.021</Modified>
+      <Modified>2020-05-22T02:40:47.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -176,21 +216,29 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-03T00:09:40.913</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Magic.jpg">
+      <PackagePath>Assets\Images\Brunos\Magic.jpg</PackagePath>
+      <Modified>2020-05-22T02:30:29.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Assets\Images\Brunos\Uptown.jpg">
+      <PackagePath>Assets\Images\Brunos\Uptown.jpg</PackagePath>
+      <Modified>2020-05-22T02:30:46.464</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-05-12T14:54:19.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MusicLibrary.xr.xml">
       <PackagePath>MusicLibrary.xr.xml</PackagePath>
-      <Modified>2020-05-17T14:36:05.013</Modified>
+      <Modified>2020-05-24T21:55:46.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-17T16:42:34.419</Modified>
+      <Modified>2020-05-24T22:15:54.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-17T16:42:34.420</Modified>
+      <Modified>2020-05-24T22:15:54.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -198,11 +246,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-17T16:37:13.213</Modified>
+      <Modified>2020-05-24T13:42:02.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\GitHub\SWC7\MusicLibrary\MusicLibrary\bin\x86\Debug\Core\MusicLibrary.exe">
       <PackagePath>MusicLibrary.exe</PackagePath>
-      <Modified>2020-05-17T16:42:35.520</Modified>
+      <Modified>2020-05-24T22:15:55.731</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
